@@ -110,6 +110,7 @@ position: absolute;
     /* width: 50%;
     height: 1000px; */
 }
+
 .navbar a {
     margin: 0px 20px;
     font-size: 18px;
@@ -333,26 +334,25 @@ position: absolute;
 /* ..............................club image ...................... */
 .clubText{
     font-size: 50px;
-    width: 4em;
-    border: 2px solid black ;
-    margin: 2em 2.2em;
+    margin: 60px 100px;
     color: rgb(130, 159, 2);
     position: absolute;
-    right: 2.2em;
+    right: 100px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .clubImg{
      width: 60%;
-     height: 12em;
+     height: 500px;
      position: relative;
-     margin:1.4em 2em;
+     margin: 60px 100px;
 }
 @media only screen and (max-width: 600px) {
     .clubText{
         font-size: 2em;
         color: rgb(130, 159, 2);
         position: absolute;
+        border: 2px solid black;
         right: -10%;
         font-weight: bold;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -399,7 +399,8 @@ position: absolute;
 }
 .fitnessTrainer p{
     font-size: large;
-    width: 90%;
+    margin: -40px 530px;
+    width: 600px;
 }
 .trainerImgBox{
     width: 100%;
