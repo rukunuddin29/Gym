@@ -9,6 +9,525 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b9e775a4c8.js" crossorigin="anonymous"></script>
 </head>
+<style>
+    body{
+    margin: 0px;
+    padding: 0px;
+}.navbar{
+    display: flex;
+    position: absolute;
+    top: 15px;
+   right: 550px;
+}
+.box
+{
+   border-bottom: 2px solid rgb(67, 
+   67, 67);
+   border-top: 2px solid rgb(67, 
+   67, 67) ;
+    height: 50px;
+    top: 50px;
+    width: 99%;
+    position:absolute;
+}
+.navbar a {
+    margin: 0px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    border-bottom: 4px solid  rgb(130, 159, 2);
+    color: white;
+    font-weight: 800;
+}
+/* .....................box..........., */
+.pic{
+    width: 100%;
+    height:900px;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    z-index: 1;
+    left:720px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top:0px;
+    font-weight: 1000;
+    font-size: 20px;
+    color: white;
+}
+
+.box h1{
+position: absolute;
+    right: 260px;
+    color: white;
+    top: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    text-shadow: 0 2px 3px #000000;
+}
+.box h4 {
+    font-size: 20px;
+    color: white;
+  position: absolute;
+    top: 100%;
+    right: 17%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.join{
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    top: 480px;
+    right: 484px;
+    color: white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 40px;
+    background-color: transparent ;
+   border: 4px solid rgb(143, 175, 1);
+}
+
+@media only screen and (max-width: 600px) {
+    .pic{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       top: 0px;
+    }
+    .logo{
+        position: absolute;
+        z-index: 1;
+        left:44%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        top:0px;
+        font-weight: 1000;
+        font-size: 20px;
+        color: white;
+       
+    }
+    .box
+{
+   border-bottom:none;
+   border-top: none;
+    height: 0px;
+    top: 0px;
+    background-color: black;
+    /* width: 50%;
+    height: 1000px; */
+}
+.navbar a {
+    margin: 0px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    border-bottom: 4px solid  rgb(130, 159, 2);
+    color: white;
+    font-weight: 800;
+}
+
+/* ............................. */
+
+}
+
+/* ....................................... */
+/* .section
+{
+    width: 100%;
+    height: 590px;
+    position: relative;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+}
+.section img {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: -5px;
+    filter: opacity(20%);
+}
+.section h2 {
+    font-size: 40px;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+   
+    padding: 10px;
+    border-radius: 20px;
+}
+.section p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    color: white;
+    top: 130px;
+    left: 27%;
+} 
+.section h1 {
+    position: absolute;
+    border-left: 150px;
+    border-top: 150px;
+    border-bottom: 150px;
+    width: 170px;
+    border-top-left-radius: 50%;
+    border-color: rgb(130, 159, 2);
+    height: 170px;
+    left: 100px;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    color: white;
+} */
+
+/* ........................ring.................. */
+/* h1 {
+    text-align: center;
+    color: #d4d4d4;
+  }
+  
+  .rings {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+  }
+  
+  .percent1, .percent2, svg, circle {
+    width: 300px;
+    height: 300px;
+  }
+  .percent1{
+    position: absolute;
+    top: 240px;
+    left:250px;
+    
+  }
+  .percent2 {
+    position: absolute;
+    top: 240px;
+    left: 550px;
+  }
+  .percent3{
+    position: absolute;
+    top: 240px;
+    left: 850px;
+  }
+  
+  .percent4 {
+    position: absolute;
+    top: 240px;
+    left: 1150px;
+  }
+  
+  
+  circle {
+    position: absolute;
+    fill: none;
+    stroke-width: 10;
+    transform: translate(10px, 10px);
+    stroke-dasharray: 440;
+    stroke-linecap: round;
+  }
+  
+  circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #424242b3;
+  }
+  
+  .percent1 circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke:rgb(130, 159, 2);
+    animation: percent 1.5s linear;
+    animation-delay: 1s;
+  }
+  
+  .percent2 circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 95) / 100);
+    stroke:rgb(130, 159, 2);
+    animation: percent 1.8s linear;
+    animation-delay: 1.2s;
+  }
+  .percent3 circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    stroke:rgb(130, 159, 2);
+    animation: percent 1.8s linear;
+    animation-delay: 1.2s;
+  }
+  .percent4 circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke:rgb(130, 159, 2);
+    animation: percent 1.8s linear;
+    animation-delay: 1.2s;
+  }
+  .number {
+    position: relative;
+    bottom: 300px;
+    right: 80px;
+    color: #fff;
+    border: none;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  span {
+    font-size: 24px;
+    opacity: .7;
+  }
+  
+  .percent1 span ,.percent3 span, .percent4 span {
+    color: rgb(130, 159, 2);
+  }
+  
+  .percent2 span {
+    color: rgb(130, 159, 2);
+  }
+  
+  @keyframes percent {
+    0% {
+      stroke-dashoffset: 0;
+      stroke-width: 0;
+    }
+  } */
+
+/* -----------------service------------- */
+/* .service{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(143, 175, 1);
+    top: -10px;
+    position: relative;
+    display: flex;
+}
+.boxSer{
+    width: 25%;
+    height: 600px;
+}
+.textCardio{
+  font-size: 24px;
+}
+.textBody{
+    font-size: 24px;
+    right: 80px;
+    position: absolute;
+
+}
+.textRunning{
+    font-size: 24px;
+    width: 200px;
+    position: absolute;
+    left: 470px;
+}
+#boxSer1, #boxSer2 , #boxSer3 {
+    background-color: rgb(130, 159, 2);
+    height: 450px;
+}
+.fa-person-running , .fa-dumbbell,.fa-heart-circle-bolt{
+    color: antiquewhite;
+    font-size: 100px;
+    margin: 90px 127px;
+} */
+
+/* ..............................club image ...................... */
+.clubText{
+    font-size: 50px;
+    width: 4em;
+    border: 2px solid black ;
+    margin: 2em 2.2em;
+    color: rgb(130, 159, 2);
+    position: absolute;
+    right: 2.2em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.clubImg{
+     width: 60%;
+     height: 12em;
+     position: relative;
+     margin:1.4em 2em;
+}
+@media only screen and (max-width: 600px) {
+    .clubText{
+        font-size: 2em;
+        color: rgb(130, 159, 2);
+        position: absolute;
+        right: -10%;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .clubImg{
+         width: 60%;
+         height:200px;
+         position: relative;
+         margin: 20px 30px;
+    }
+}
+/* '''''''''''''''''''''''imagesGrid''''''''''''''''''''''' */
+
+.imageGrid{
+    width: 100%;
+    height: 500px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.imageGrid img {
+    width: 379.81px;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.fitnessTrainer {
+     width: 100%;
+     height: 800px;
+     background-color: rgb(130, 159, 2);
+     margin: -13px 0px;
+}
+.fitnessTrainer h2{
+    font-size: 70px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 450px;
+    padding: 50px 50px;
+    width: 50%;
+}
+.fitnessTrainer p{
+    font-size: large;
+    width: 90%;
+}
+.trainerImgBox{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin: 0px 0px;
+}
+.trainerImg {
+    width: 19% ;
+    height: 500px;
+    margin: 100px 40px;
+   border: 2px solid black ;
+}
+.trainerImg img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: -10px 60px ;
+}
+.trainerImg h3 {
+    font-size: 30px;
+    text-align: center;
+}
+.trainerImg span {
+    font-size: 20px;
+    text-align: center;
+}
+.fa-brands{
+    font-size: 23px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.map{
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .map{
+        width: 100%;
+        height: 60%;
+      }
+      /* ..............mao............ */
+
+    .imageGrid{
+        width: 100%;
+        height: 200px;
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+    .imageGrid img {
+        width:25%;
+        height: 100px ;
+        margin: 0px;
+        padding: 0px;
+        transition: smooth 0.5s;
+    }
+    /* ..................imgGrid............ */
+    .fitnessTrainer {
+        width: 100%;
+        height: 600px;
+        background-color: rgb(130, 159, 2);
+        margin: -13px 0px;
+   }
+   .fitnessTrainer h2{
+       font-size: 40px;
+       color: black;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       margin: 0px 5%;
+       padding: 50px 50px;
+       width: 90%;
+   }
+   .fitnessTrainer p{
+       font-size:small;
+       margin: -3em 4em;
+   
+   }
+   .trainerImgBox{
+       width: 70%;
+       height: 500px;
+       margin: 10% 15%;
+       display: flex;
+       flex-wrap: nowrap; 
+       overflow-x: auto; 
+       max-width: 100%;
+   }
+   .trainerImg {
+       width: 100% ;
+       height: 300px;
+       margin: 40px 70px;
+      border: 2px solid rgba(232, 230, 230, 0) ;
+   }
+   .trainerImg img {
+       width: 10em;
+       height: 10em;
+       border-radius: 50%;
+       margin: -1em 1em ;
+   }
+   .trainerImg h3 {
+       font-size: 2em;
+       text-align: center;
+   }
+   .trainerImg span {
+       font-size: 0.5em;
+       text-align: center;
+   }
+   .fa-brands{
+       font-size: 23px;
+       text-align: center;
+       padding: 0px 10px;
+   }
+   
+}
+</style>
 <body>
   
     <header>
